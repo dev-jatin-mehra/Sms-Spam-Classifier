@@ -12,7 +12,7 @@ This project implements a spam mail/SMS detection system using Machine Learning 
   
 - **Feature Engineering**: Creating features such as word frequencies and message length.
   
-- **Evaluation**: Using metrics like accuracy, precision, recall, and F1-score to evaluate model performance.
+- **Evaluation**: Using metrics like accuracy, precision and confusion_matrix to evaluate model performance.
   
 - **Deployment**: Setting up the model for real-time detection using Streamlit.
 

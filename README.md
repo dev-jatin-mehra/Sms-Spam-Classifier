@@ -41,7 +41,7 @@ This project implements a spam mail/SMS detection system using Machine Learning 
 
    ```bash
    git clone https://github.com/dev-jatin-mehra/Sms-Spam-Classifier.git
-   cd spam-detection
+   cd Sms-Spam-Classifier
 
 2. ```bash
     pip install -r requirements.txt

@@ -40,7 +40,7 @@ This project implements a spam mail/SMS detection system using Machine Learning 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/spam-detection.git
+   git clone https://github.com/dev-jatin-mehra/Sms-Spam-Classifier.git
    cd spam-detection
 
 2. ```bash

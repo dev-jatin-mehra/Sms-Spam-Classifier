@@ -52,7 +52,7 @@ This project implements a spam mail/SMS detection system using Machine Learning 
     streamlit run app.py
 
 ## Model Training
-- Explain how the model was trained, including details on algorithms used, hyperparameters tuned, and any cross-validation strategies employed.
+- Model was trained using voting classifier . It was also validated by other classifiers such as MultinomialNB,SVC,XGB,DecisionTree
 
 ## Contributing
 Feel free to fork the repository, create pull requests, and suggest improvements.

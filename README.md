@@ -8,7 +8,7 @@ This project implements a spam mail/SMS detection system using Machine Learning 
 
 - **Data Collection and Preprocessing**: Gathering and cleaning a diverse dataset of emails and SMS messages.
   
-- **Model Selection**: Experimenting with various ML algorithms like Naive Bayes, SVM, and Neural Networks.
+- **Model Selection**: Experimenting with various ML algorithms like Naive Bayes, SVM, XGB, DecisionTree, RFC, etc.
   
 - **Feature Engineering**: Creating features such as word frequencies and message length.
   

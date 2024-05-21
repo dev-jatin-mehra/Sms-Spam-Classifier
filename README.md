@@ -1,6 +1,6 @@
 # Spam Mail/SMS Detection using Machine Learning with Streamlit
 
-![Spam Detection](./image/Screenshot%20(207).png)
+![app](/image/app.png)
 
 ## Overview
 
@@ -10,11 +10,11 @@ This project implements a spam mail/SMS detection system using Machine Learning 
 
 - **Data Collection and Preprocessing**: Gathering and cleaning a diverse dataset of emails and SMS messages.
   
-- **Model Selection**: Experimenting with various ML algorithms like Naive Bayes, SVM, and Neural Networks.
+- **Model Selection**: Experimenting with various ML algorithms like Naive Bayes, SVM, XGB, DecisionTree, RFC, etc.
   
 - **Feature Engineering**: Creating features such as word frequencies and message length.
   
-- **Evaluation**: Using metrics like accuracy, precision, recall, and F1-score to evaluate model performance.
+- **Evaluation**: Using metrics like accuracy, precision and confusion_matrix to evaluate model performance.
   
 - **Deployment**: Setting up the model for real-time detection using Streamlit.
 
@@ -28,22 +28,22 @@ This project implements a spam mail/SMS detection system using Machine Learning 
 
 ## Project Structure
 
-├── data/
-│ ├── .csv/
-├── models/
-│ └── model.pkl/vectorizer.pkl /
-├── app.py/
-├── requirements.txt/
-├── sms_spam.ipynb/
-└── README.md/
+├── data<br>
+│ ├── .csv<br>
+├── models<br>
+│ └── model.pkl/vectorizer.pkl<br>
+├── app.py<br>
+├── requirements.txt<br>
+├── sms_spam.ipynb<br>
+└── README.md<br>
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/spam-detection.git
-   cd spam-detection
+   git clone https://github.com/dev-jatin-mehra/Sms-Spam-Classifier.git
+   cd Sms-Spam-Classifier
 
 2. ```bash
     pip install -r requirements.txt
@@ -54,7 +54,7 @@ This project implements a spam mail/SMS detection system using Machine Learning 
     streamlit run app.py
 
 ## Model Training
-- Explain how the model was trained, including details on algorithms used, hyperparameters tuned, and any cross-validation strategies employed.
+- Model was trained using voting classifier . It was also validated by other classifiers such as MultinomialNB,SVC,XGB,DecisionTree
 
 ## Contributing
 Feel free to fork the repository, create pull requests, and suggest improvements.

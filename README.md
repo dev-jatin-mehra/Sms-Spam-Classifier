@@ -1,7 +1,5 @@
 # Spam Mail/SMS Detection using Machine Learning with Streamlit
 
-![Spam Detection](./image/Screenshot%20(207).png)
-
 ## Overview
 
 This project implements a spam mail/SMS detection system using Machine Learning techniques and Streamlit for visualization and deployment. The goal is to accurately classify incoming messages as either spam or legitimate (ham).

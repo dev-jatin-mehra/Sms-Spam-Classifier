@@ -28,14 +28,14 @@ This project implements a spam mail/SMS detection system using Machine Learning 
 
 ## Project Structure
 
-├── data/
-│ ├── .csv/
-├── models/
-│ └── model.pkl/vectorizer.pkl /
-├── app.py/
-├── requirements.txt/
-├── sms_spam.ipynb/
-└── README.md/
+├── data<br>
+│ ├── .csv<br>
+├── models<br>
+│ └── model.pkl/vectorizer.pkl<br>
+├── app.py<br>
+├── requirements.txt<br>
+├── sms_spam.ipynb<br>
+└── README.md<br>
 
 ## Installation
 
